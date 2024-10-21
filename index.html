@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سهراب بهدانی - وبسایت شخصی</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="section ltr">
+            <p class="prompt"><span class="command">cat profile.txt</span></p>
+            <div class="output rtl">
+                <h1>سهراب بهدانی</h1>
+                <p>برنامه‌نویس، بنیان‌گذار و نگهدارنده پارچ لینوکس</p>
+                <p>من یک برنامه‌نویس C و Rust هستم. درحال حاضر بر روی پارچ لینوکس کار میکنم.</p>
+            </div>
+        </div>
+
+        <div class="section ltr">
+            <p class="prompt"><span class="command">ls -l contact-links/</span></p>
+            <div class="output">
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>name</th>
+                        <th>type</th>
+                        <th>url</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>GitHub</td>
+                        <td>link</td>
+                        <td><a href="#">github.com/behdanisohrab</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>LinkedIn</td>
+                        <td>link</td>
+                        <td><a href="#">linkedin.com/in/sohrab-behdani</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Mastodon</td>
+                        <td>link</td>
+                        <td><a href="#">mastodon.bsd.cafe/@sohrab</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>YouTube</td>
+                        <td>link</td>
+                        <td><a href="#">youtube.com/@sohrabbehdani</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="section ltr">
+            <p class="prompt"><span class="command">ls -l other-links/</span></p>
+            <div class="output">
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>name</th>
+                        <th>type</th>
+                        <th>url</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>English Blog</td>
+                        <td>link</td>
+                        <td><a href="#">sohrabbehdani.ir/blog</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>بلاگ فارسی</td>
+                        <td>link</td>
+                        <td><a href="#">sohrabbehdani.ir/blogfa</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>دونیت</td>
+                        <td>link</td>
+                        <td><a href="#">daramet.com/sohrabbehdani</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Telegram</td>
+                        <td>link</td>
+                        <td><a href="#">t.me/sohrabbehdani</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Twitter</td>
+                        <td>link</td>
+                        <td><a href="#">twitter.com/sbehdani</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Matrix</td>
+                        <td>link</td>
+                        <td><a href="#">matrix.to/#/@sohrab:matrix.bsd.cafe</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="rss-feed" class="ltr">
+            <p class="prompt"><span class="command">cat mastodon-feed.rss</span></p>
+            <div class="output" id="mastodon-posts">
+                <!-- RSS feed content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
